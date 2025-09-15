@@ -11,6 +11,6 @@ public class Teacher extends Person {
     @Override
     public void displayDetails() {
         super.displayDetails();
-        System.out.println(", Subject: " + subjectTaught + " (Role: Teacher)");
+        System.out.println("Subject: " + this.subjectTaught + ", Role: Teacher");
     }
 }
